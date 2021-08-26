@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 140, 120);
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    border: 0;
+    outline: none;
+    width: 340px;
+    height: 45px;
+    font-size: 20px;
+}
+
+.todos {
+    overflow: hidden;
+    margin: 20px auto;
+    width: 450px;
+    min-height: 650px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #333;
+    background-color: rgb(47, 61, 74);
+}
+
+.todos h1 {
+    margin-top: 40px;
+    text-align: center;
+    font-family: '宋体';
+    font-size: 50px;
+    color: #fff;
+}
+
+.todos .sr {
+    position: relative;
+}
+
+.todos .inp {
+    margin: 30px 56px;
+    border-radius: 25px;
+    text-align: center;
+    color: #ccc;
+}
+
+.focus {
+    margin: 30px 56px;
+    padding-left: 20px;
+    border-radius: 25px;
+    color: #000;
+}
+
+.todos .sr button {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 53px;
+    width: 70px;
+    height: 45px;
+    border: 0;
+    border-radius: 0 25px 25px 0;
+    transition: .3s;
+    font-size: 20px;
+    background-color: rgba(243, 120, 120, 0.6);
+    color: #fff;
+    cursor: pointer;
+}
+
+.todos .sr .btn {
+    background-color: rgb(236, 108, 34);
+}
+
+.todos ul {
+    margin: 10px 56px;
+}
+
+.todos ul li {
+    position: relative;
+    margin-top: 20px;
+    padding-left: 15px;
+    width: 340px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 15px;
+    background-color: rgba(95, 109, 122, .6);
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.todos ul li:nth-child(1) {
+    margin-top: 0;
+}
+
+.todos ul li:hover {
+    background-color: rgb(17, 95, 168);
+}
+
+.todos ul li a {
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 22px;
+    width: 25px;
+    height: 25px;
+    border: 5px solid rgb(243, 140, 120);
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.todos ul li a:hover {
+    background-color: rgb(243, 140, 120);
+}
